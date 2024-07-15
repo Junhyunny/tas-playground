@@ -11,7 +11,10 @@ class WebMvcConfig : WebMvcConfigurer {
 
     override fun addCorsMappings(registry: CorsRegistry) {
         registry.addMapping("/**")
-            .allowedOrigins("https://todos-frontend.apps.dhaka.cf-app.com/")
+            .allowedOrigins(
+                "https://todos-frontend.apps.sandbox.aws.maki.lol",
+                "https://todos-frontend.apps.dhaka.cf-app.com"
+            )
             .allowedMethods("GET", "POST", "OPTIONS")
     }
 }

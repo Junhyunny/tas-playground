@@ -25,11 +25,10 @@ cf --help
 
 ## Login PCF
 
-- connect api end-point
-- `{PCF_END_POINT}` is the server what Maki-san setup for TAS playground.
+- connect to api end-point
 
 ```
-cf api {PCF_END_POINT}
+cf login -a https://api.sys.sandbox.aws.maki.lol
 ```
 
 - login command
