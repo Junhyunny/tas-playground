@@ -108,7 +108,7 @@ cf push
 
 ## Combine frontend and backend
 
-You can also deploy jar application combined frontend and backend. This is possible in a `combined-build` branch. First change the branch.
+You can also deploy jar application combined frontend and backend. This works properly only in a `combined-build` branch. First change the branch please.
 
 ```
 git checkout combined-build
