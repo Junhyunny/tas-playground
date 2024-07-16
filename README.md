@@ -106,6 +106,20 @@ cd backend
 cf push
 ```
 
+## Combine frontend and backend
+
+You can also deploy jar application combined frontend and backend. This is possible in a `combined-build` branch. First change the branch.
+
+```
+git checkout combined-build
+```
+
+Run deploy script from root directory.
+
+```
+sh deploy.sh
+```
+
 #### Other Reference
 
 You can also use this playground. You have to connect with VMWare VPN not Broadcom.
